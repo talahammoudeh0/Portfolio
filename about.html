@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,74 +9,68 @@
 </head>
 <body class="bg-gray-800 text-white font-sans">
 
-  <nav class="fixed top-0 w-full bg-blue-900 z-50 px-10 py-4 flex justify-between items-center">
-    <p class="text-blue-300 font-bold text-xl">Tala Hammoudeh</p>
-    <ul class="flex gap-8 text-lg">
+  <nav class="fixed top-0 w-full bg-blue-900 z-50 px-6 py-4 flex justify-between items-center">
+    <p class="text-blue-300 font-bold text-lg">Tala Hammoudeh</p>
+    <ul class="flex gap-4 md:gap-8 text-sm md:text-lg">
       <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
       <li><a href="about.html" class="text-blue-300 font-bold">About</a></li>
       <li><a href="projects.html" class="hover:text-blue-300">Projects</a></li>
       <li><a href="contact.html" class="hover:text-blue-300">Contact</a></li>
     </ul>
   </nav>
-
-  <section class="min-h-screen px-20 py-32 bg-gray-800">
-    <h2 class="text-4xl font-bold text-blue-300 mb-6">About Me</h2>
+  
+  <section class="min-h-screen px-6 md:px-20 py-32 bg-gray-800">
+    <h2 class="text-3xl md:text-4xl font-bold text-blue-300 mb-6">About Me</h2> 
     <hr class="border-blue-400 mb-8">
-    <div class="flex gap-16">
 
-  <div class="w-1/2">
-    <p class="text-xl text-gray-300">
-      Computer Engineering student at the University of Jordan with a growing passion 
-      for front-end development. Eager to build clean and user-friendly web interfaces, 
-      and continuously expand my skills across modern front-end technologies.
-      Aiming to grow as a developer and contribute to impactful projects.
-    </p>
-    <div class="mt-8">
-      <p class="text-blue-300 font-bold text-2xl mb-4">Education</p>
-      <p class="text-xl font-bold">The University of Jordan</p>
-      <p class="text-gray-400 text-xl">B.Sc. Computer Engineering | GPA: 3.85/4</p>
-      <p class="text-xl font-bold mt-4">Al Ittihad Schools</p>
-      <p class="text-gray-400 text-xl">Tawjihi | Grade Average: 98.25%</p>
+    <div class="flex flex-col md:flex-row gap-10 md:gap-16">
+
+      <div class="w-full md:w-1/2">
+        <p class="text-lg md:text-xl text-gray-300">
+          Computer Engineering student at the University of Jordan with a growing passion 
+          for front-end development. Eager to build clean and user-friendly web interfaces, 
+          and continuously expand my skills across modern front-end technologies.
+          Aiming to grow as a developer and contribute to impactful projects.
+        </p>
+        <div class="mt-8">
+          <p class="text-blue-300 font-bold text-xl md:text-2xl mb-4">Education</p>
+          <p class="text-lg md:text-xl font-bold">The University of Jordan</p>
+          <p class="text-gray-400 text-base md:text-xl">B.Sc. Computer Engineering | GPA: 3.85/4</p>
+          <p class="text-lg md:text-xl font-bold mt-4">Al Ittihad Schools</p>
+          <p class="text-gray-400 text-base md:text-xl">Tawjihi | Grade Average: 98.25%</p>
+        </div>
+      </div>
+
+      <div class="w-full md:w-1/2">
+        <p class="text-blue-300 font-bold text-2xl md:text-3xl mb-4">Skills</p>
+        <ul class="text-lg md:text-2xl list-disc list-inside space-y-2">
+          <li>C++</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+
+        <p class="text-blue-300 font-bold text-2xl md:text-3xl mt-8 mb-4">Languages</p>
+        <ul class="text-lg md:text-2xl list-disc list-inside space-y-2">
+          <li>Arabic <span class="text-blue-200 text-base md:text-xl">-Native</span></li>
+          <li>English <span class="text-blue-200 text-base md:text-xl">B2-Cambridge Certificate</span></li>
+        </ul>
+
+        <p class="text-blue-300 font-bold text-2xl md:text-3xl mt-8 mb-4">Soft Skills</p>
+        <div class="flex flex-wrap gap-3">
+          <span class="bg-gray-900 px-4 py-2 rounded-full text-base md:text-xl">Fast Learner</span>
+          <span class="bg-gray-900 px-4 py-2 rounded-full text-base md:text-xl">Team Player</span>
+          <span class="bg-gray-900 px-4 py-2 rounded-full text-base md:text-xl">Problem Solving</span>
+          <span class="bg-gray-900 px-4 py-2 rounded-full text-base md:text-xl">Communication</span>
+        </div>
+      </div>
+
     </div>
-  </div>
-
-  <div class="w-1/2">
-    <p class="text-blue-300 font-bold text-3xl mb-4">Skills</p>
-    <div class="space-y-4">
-      <ul class="text-2xl list-disc list-inside space-y-2">
-        <li>C++</li>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-    </div>
-
-    <div class="w-1/2">
-    <p class="text-blue-300 font-bold text-3xl mt-8 mb-6">Languages</p>
-    <div class="space-y-4">
-      <ul class="text-2xl list-disc list-inside space-y-2">
-        <li>Arabic <span class="text-blue-200 text-xl">-Native</span></li>
-        <li>English <span class="text-blue-200 text-xl">B2-Cambridge Certificate</span></li>
-      </ul>
-    </div>
-
-    <p class="text-blue-300 font-bold text-3xl mt-8 mb-6">Soft Skills</p>
-    <div class="flex flex-wrap gap-3">
-      <span class="bg-gray-900 px-4 py-2 rounded-full text-xl">Fast Learner</span>
-      <span class="bg-gray-900 px-4 py-2 rounded-full text-xl">Team Player</span>
-      <span class="bg-gray-900 px-4 py-2 rounded-full text-xl">Problem Solving</span>
-      <span class="bg-gray-900 px-4 py-2 rounded-full text-xl">Communication</span>
-    </div>
-  </div>
-
-</div>
-
   </section>
 
-  <footer class="w-full bg-gray-700 text-center text-white text-lg py-4">
-   <p>&copy; 2026 Tala Hammoudeh. All rights reserved.</p>
+  <footer class="w-full bg-gray-700 text-center text-white text-sm md:text-lg py-4">
+    <p>&copy; 2026 Tala Hammoudeh. All rights reserved.</p>
   </footer>
-
 
 </body>
 </html>
